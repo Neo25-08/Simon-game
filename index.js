@@ -66,7 +66,7 @@ function answerChecker(color) {
     gameOver();
     pattern = [];
     level = 1;
-    click = -1;
+    clicks = -1;
     answer = [];
     start = false;
   } else if (pattern.length === answer.length) {
